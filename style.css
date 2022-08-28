@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #32323e;
+  color: white;
+}
+header {
+  padding: 1px;
+  text-align: center;
+}
+main {
+  padding: 1em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background-color: #272730;
+}
+.judul-container {
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.anak-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.anak-form label {
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.tombol-submit {
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #bb7e00;
+  color: #fff;
+}
+
+input[type='text'],
+input[type='number'] {
+  border: 2px solid;
+  border-radius: 9px;
+  padding: 5px;
+  margin-bottom: 18px;
+  font-size: 24px;
+  background-color: #272730;
+  color: #fff;
+}
+.lemari {
+  width: 100%;
+}
+.lemari-buku {
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid;
+  margin-bottom: 1em;
+  align-items: baseline;
+  width: 90%;
+  border-radius: 12px;
+}
+.starter {
+  margin: 5px 0px 5px 20px;
+  align-self: flex-start baseline;
+  flex-grow: 1;
+}
+.taskbtn {
+  background-color: inherit;
+  border-radius: 5px;
+  margin-left: auto;
+  margin: 5px;
+}
+.tombol {
+  position: static;
+}
+#tombolHapus {
+  background-color: red;
+  border: none;
+  color: #fff;
+  padding: 1em;
+}
+#tombolUndo {
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 1em;
+}
+#tombolSudahBaca {
+  background-color: green;
+  border: none;
+  color: #fff;
+  padding: 1em;
+}
